@@ -1,0 +1,100 @@
+body, html{
+    background-image: url('/images/annonce.png');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 90%;
+    width: 100%;
+    padding-top: 70px;
+    font-family: 'Rubik';
+}
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 20px;
+    z-index: 1000;
+  }
+  
+  header h1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 36px;
+    margin-left: 20px; 
+  }
+  
+  header h1 a {
+    text-decoration: none;
+    color: black;
+  
+  }
+  
+  .ad-form-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 50px;
+    margin-top: 100px;
+    background: #f2f2f2;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    border-radius: 8px;
+  }
+  
+  #ad-form h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 0px;
+  }
+  
+  #ad-form label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  #ad-form input[type="text"],
+  #ad-form textarea,
+  #ad-form input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Rubik';
+
+  }
+  
+  #ad-form textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  #ad-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #FFA500;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    
+    #ad-form button[type="submit"]:hover {
+    background-color: #e69500;
+    }
+
+    footer{
+        text-align: center;
+        color: orange;
+      }

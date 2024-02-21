@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Déposer une annonce</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">  
+  <link rel="stylesheet" href="/css/annonce.css">
+  <script src="/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+          <h1><a href="/index.html">Leboncoin</a></h1>
+        </div>
+      </header>
+
+  <main>
+    <div class="ad-form-container">
+      <form id="ad-form">
+        <h2>DÉPOSER UNE ANNONCE</h2>
+        
+        <label for="product-name">Nom du produit</label>
+        <input type="text" id="product-name" placeholder="Titre de l'annonce" name="product-name" required>
+
+        <label for="description">Description</label>
+        <textarea id="description" placeholder="Décrivez votre article (couleur, état, etc)" name="description" required></textarea>
+
+        <label for="images">Ajouter des images</label>
+        <input type="file" id="images" name="images" multiple>
+
+        <button type="submit">Déposer l'annonce</button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Lul DRAKO</p>
+  </footer>
+</body>
+</html>
