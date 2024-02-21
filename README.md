@@ -16,7 +16,7 @@ Ce projet est une refonte de l'interface utilisateur d'un site de petites annonc
 
 ## Installation
 Instructions pour cloner et exécuter le projet localement, par exemple :
-git clone https://github.com/LulDrako/mon-projet.git
+git clone https://github.com/LulDrako/RefonteLeboncoin.git
 
 ## Contact
 Informations de contact si quelqu'un souhaite vous joindre, par exemple :
