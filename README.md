@@ -1,12 +1,12 @@
 # Refonte Leboncoin
 
 ## Description
-Ce projet est une refonte de l'interface utilisateur d'un site de petites annonces, axée sur l'amélioration de l'expérience utilisateur et la modernisation du design.
+Ce projet est une refonte de l'interface utilisateur du site de petites annonces Leboncoin, avec pour objectif d'améliorer l'expérience utilisateur sur desktop et mobile.
 
 ## Technologies Utilisées
-- HTML
-- CSS
-- JavaScript
+- HTML : Structure de la page.
+- CSS : Mise en page et styles pour une interface responsive.
+- JavaScript : Fonctionnalités interactives.
 
 ## Fonctionnalités
 - Liste des fonctionnalités clés du projet. Par exemple :
@@ -14,8 +14,8 @@ Ce projet est une refonte de l'interface utilisateur d'un site de petites annonc
   - Interface utilisateur réactive
   - Optimisation pour mobile
 
-## Installation
-git clone https://github.com/LulDrako/RefonteLeboncoin.git
+## Déploiement
+Notre site est déployé et accessible à l'adresse suivante :  [RefonteLeboncoin](https://refonte-leboncoin.vercel.app).
 
 ## Contact
 - [Mon Profil GitHub](https://github.com/LulDrako)
