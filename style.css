@@ -29,7 +29,6 @@ header h1 {
 header h1 a {
   text-decoration: none;
   color: black;
-
 }
 
 nav {
@@ -57,7 +56,6 @@ nav ul li a {
   color: #333;
   font-size: 1.5em;
   font-family: 'Bebas Neue', cursive;
-
 }
 
 nav ul li:last-child {
@@ -65,17 +63,9 @@ nav ul li:last-child {
   padding-right: 20px;
 }
 
-
-nav ul li a {
-text-decoration: none;
-color: #333;
-font-size: 1.5em;
-}
-
-
 .hero-image {
   background-image: url('/images/leboncoin-jaiunpotedanslacom-min.png');
-  height: 102vh; 
+  height: 102vh;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -88,14 +78,14 @@ main {
   background-color: #f2f2f2;
 }
 
-main h2{
+main h2 {
   text-align: start;
-  margin-left: 10% ;
+  margin-left: 10%;
   margin-bottom: 50px;
   margin-top: 100px;
 }
 
-main #post-ad h2{
+main #post-ad h2 {
   margin-top: 50px;
 }
 
@@ -115,22 +105,22 @@ main #post-ad h2{
   display: flex;
   overflow-x: auto;
   margin: 0 auto;
-  max-width: 80%; 
-  gap: 10px; 
+  max-width: 80%;
+  gap: 10px;
 }
 
 .categories-carousel::-webkit-scrollbar {
-  display: none; 
+  display: none;
 }
 
 .category-item {
-  min-width: 300px; 
+  min-width: 300px;
   margin-right: 10px;
   flex: 0 0 auto;
-  width: 300px; 
+  width: 300px;
   position: relative;
   scroll-snap-align: start;
-  border-radius: 10px; 
+  border-radius: 10px;
   overflow: hidden;
 }
 
@@ -146,7 +136,7 @@ main #post-ad h2{
   left: 0;
   width: 100%;
   padding: 5px 0;
-  background: linear-gradient(to top, black, rgba(0,0,0,0));
+  background: linear-gradient(to top, black, rgba(0, 0, 0, 0));
   color: #fff;
   font-size: 1.2em;
   margin: 0;
@@ -162,7 +152,7 @@ main #post-ad h2{
   border-radius: 50%;
   align-items: center;
   position: absolute;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   top: 50%;
   transform: translateY(-50%);
   border: none;
@@ -186,7 +176,7 @@ main #post-ad h2{
   position: relative;
 }
 
-#post-ad span{
+#post-ad span {
   text-align: center;
   font-size: 18px;
 }
@@ -201,16 +191,53 @@ main #post-ad h2{
   margin-left: 16px;
   font-weight: bold;
   cursor: pointer;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .button-style:hover {
   background-color: peru;
 }
 
-footer{
+footer {
   text-align: center;
   background-color: peru;
   margin-top: -10px;
   padding: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  header h1 {
+    font-size: 24px;
+    margin-left: 10px;
+  }
+
+  nav {
+    justify-content: flex-start;
+    margin-left: 0;
+  }
+
+  nav ul {
+    justify-content: flex-start;
+  }
+
+  nav ul li a {
+    font-size: 14px;
+  }
+
+  .hero-image {
+    background-image: url('/images/leboncoin-jaiunpotedanslacom-min.png');
+    background-size: cover;
+    height: 50vh;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  header h1 {
+    font-size: 20px;
+  }
+
+  nav ul li a h2 {
+    font-size: 12px;
+    margin-bottom: 3px;
+  }
 }
