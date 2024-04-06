@@ -89,7 +89,14 @@ main #post-ad h2 {
   margin-top: 50px;
 }
 
-#top-categories, #post-ad {
+#top-categories{
+  opacity: 0;
+  visibility: visible;
+  padding: 20px;
+  transition: opacity 2.5s ease-in-out;
+}
+
+#post-ad {
   opacity: 0;
   visibility: visible;
   padding: 20px;
