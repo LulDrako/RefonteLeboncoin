@@ -1,86 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
-  <title>Leboncoin</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Leboncoin</title>
 </head>
+
 <body>
-  <header>
-    <div class="header-content">
-      <h1><a href="index.html">Leboncoin</a></h1>
-      
-      <nav>
-        <ul>
-          <li><a href="/html/categories.html">Categories</a></li>
-          <li><a href="/html/annonce.html">Déposer une annonce</a></li>
-          <li><a href="/html/login.html">Connexion</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  <div class="hero-image">
-  </div>
-  <main>
-    <div id="top-categories">
-      <h2>Top catégories</h2>
-      <div class="carousel-container">
-      <button id="prevBtn"><i class="fa-solid fa-arrow-left"></i></button>
-      <div class="categories-carousel">
-        <div class="category-item">
-          <a href="https://www.leboncoin.fr/vetements/offres">
-          <img src="https://img.freepik.com/photos-gratuite/boutique-vetements-boutique-vetements-cintre-boutique-moderne_1150-8886.jpg?size=626&ext=jpg&ga=GA1.1.1412446893.1704931200&semt=sph" alt="Vêtements"></a>
-          <p>Vêtements</p>
+    <header>
+        <div class="header-content">
+            <h1><a href="index.html">Leboncoin</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="/html/categories.html">Categories</a></li>
+                    <li><a href="/html/annonce.html">Déposer une annonce</a></li>
+                    <li><a href="/html/login.html">Connexion</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="category-item">
-          <a href="https://www.leboncoin.fr/locations_saisonnieres/offres">
-          <img src="https://www.procheconnect.ch/images/Vacances_2.jpg" alt="Vacances"></a>
-          <p>Vacances</p>
-        </div>
-        <div class="category-item">
-          <a href="https://www.leboncoin.fr/electromenager/offres">
-          <img src="https://www.darty.com/darty-et-vous/sites/default/files/2022-12/elctrocuisine494x326.jpg" alt="Electromenager"></a>
-          <p>Electromenager</p>
-        </div>
-        <div class="category-item">
-          <a href="https://www.leboncoin.fr/voitures/offres">
-          <img src="https://i.gaw.to/vehicles/photos/09/28/092865_2019_dodge_Charger.jpg?1024x640" alt="Automobile"></a>
-          <p>Automobile</p>
-        </div>
-        <div class="category-item">
-          <a href="https://www.leboncoin.fr/ventes_immobilieres/offres">
-          <img src="https://www.selexium.com/app/uploads/2022/05/media-marche-immobilier-luxe-hausse.jpg" alt="Immobilier"></a>
-          <p>Immobilier</p>
-        </div>
-        <div class="category-item">
-          <a href="https://www.leboncoin.fr/ameublement/offres">
-          <img src="https://www.mobilclick.it/media/catalog/category/404.a_1.jpg" alt="Ameublement"></a>
-          <p>Ameublement</p>
-        </div>
-        <div class="category-item"><a href="https://www.leboncoin.fr/ordinateurs/offres">
-          <img src="https://cdn.lesnumeriques.com/optim/native/21/214788/0f44afce-msi-se-lache-pour-le-black-friday-et-casse-le-prix-de-ses-pc-gaming-rtx-40-series-et-creator__1200_900__1269-0-2995-973.jpg" alt="Ordinateur"></a>
-          <p>Ordinateur</p>
-        </div>
-      </div>
-      <button id="nextBtn"><i class="fa-sharp fa-solid fa-arrow-right"></i></button>
-    </div>
-    <section id="post-ad">
-      <h2>Vendre un produit</h2>
-      <span>C'est le moment de vendre</span>
-      <a href="/html/annonce.html"><button class="button-style">Déposer une annonce</button></a>
-    </section>
-    </div>
-  </main>
-  <footer>
-    <p>&copy; 2024 Lul DRAKO</p>
-  </footer>
+    </header>
+
+    <div class="hero-image">
+    </div> 
+
+    <main>
+        <section id="top-categories">
+            <h2>Top catégories</h2>
+            <div class="carousel-container">
+                <button id="prevBtn" aria-label="Previous"><i class="fa-solid fa-arrow-left"></i></button>
+                <div class="categories-carousel">
+                    <div class="category-item">
+                        <a href="https://www.leboncoin.fr/vetements/offres">
+                            <img src="https://img.freepik.com/photos-gratuite/boutique-vetements-boutique-vetements-cintre-boutique-moderne_1150-8886.jpg?size=626&ext=jpg" alt="Vêtements">
+                            <p>Vêtements</p>
+                        </a>
+                    </div>
+                    <div class="category-item">
+                        <a href="https://www.leboncoin.fr/locations_saisonnieres/offres">
+                            <img src="https://www.procheconnect.ch/images/Vacances_2.jpg" alt="Vacances">
+                            <p>Vacances</p>
+                        </a>
+                    </div>
+                    <div class="category-item">
+                        <a href="https://www.leboncoin.fr/electromenager/offres">
+                            <img src="https://www.darty.com/darty-et-vous/sites/default/files/2022-12/elctrocuisine494x326.jpg" alt="Electromenager">
+                            <p>Electromenager</p>
+                        </a>
+                    </div>
+                    <div class="category-item">
+                        <a href="https://www.leboncoin.fr/voitures/offres">
+                            <img src="https://i.gaw.to/vehicles/photos/09/28/092865_2019_dodge_Charger.jpg?1024x640" alt="Automobile">
+                            <p>Automobile</p>
+                        </a>
+                    </div>
+                    <div class="category-item">
+                        <a href="https://www.leboncoin.fr/ventes_immobilieres/offres">
+                            <img src="https://www.selexium.com/app/uploads/2022/05/media-marche-immobilier-luxe-hausse.jpg" alt="Immobilier">
+                            <p>Immobilier</p>
+                        </a>
+                    </div>
+                    <div class="category-item">
+                        <a href="https://www.leboncoin.fr/ameublement/offres">
+                            <img src="https://www.mobilclick.it/media/catalog/category/404.a_1.jpg" alt="Ameublement">
+                            <p>Ameublement</p>
+                        </a>
+                    </div>
+                    <div class="category-item">
+                        <a href="https://www.leboncoin.fr/ordinateurs/offres">
+                            <img src="https://cdn.lesnumeriques.com/optim/native/21/214788/0f44afce-msi-se-lache-pour-le-black-friday-et-casse-le-prix-de-ses-pc-gaming-rtx-40-series-et-creator__1200_900__1269-0-2995-973.jpg" alt="Ordinateur">
+                            <p>Ordinateur</p>
+                        </a>
+                    </div>
+                </div>
+                <button id="nextBtn" aria-label="Next"><i class="fa-sharp fa-solid fa-arrow-right"></i></button>
+            </div>
+        <section id="post-ad">
+            <h2>Vendre un produit</h2>
+            <span>C'est le moment de vendre</span>
+            <a href="/html/annonce.html"><button class="button-style">Déposer une annonce</button></a>
+        </section>
+      </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Lul DRAKO</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
+
 </html>

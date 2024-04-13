@@ -226,12 +226,6 @@ footer {
   nav ul li a {
     font-size: 14px;
   }
-
-  .hero-image {
-    background-image: url('/images/leboncoin-jaiunpotedanslacom-min.png');
-    background-size: cover;
-    height: 50vh;
-  }
 }
 
 @media only screen and (max-width: 480px) {
