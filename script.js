@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         entry.target.style.opacity = 1;
+        entry.target.style.display = 'block';
       } else {
         entry.target.style.opacity = 0;
       }
