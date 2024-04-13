@@ -8,11 +8,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         entry.target.style.opacity = 1;
-      } else {
+       entry.target.style.display = 'block';
+        } else {
         entry.target.style.opacity = 0;
-        entry.target.style.display = 'block';
-      }
-    });
+        }});
   }, options);
 
   const topCategories = document.getElementById('top-categories');
